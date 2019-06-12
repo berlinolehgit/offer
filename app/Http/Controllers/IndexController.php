@@ -10,6 +10,9 @@ use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 class  IndexController extends Controller
 {
     public function index(){
+        dd('vdvd');
         return view('index');
     }
+
+
 }
